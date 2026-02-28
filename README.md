@@ -62,6 +62,9 @@ I'll be posting pictures of the setup here.
 
 ⚠️ Warning: It looks a bit funny right now 😝
 
+<img width="1598" height="962" alt="image" src="https://github.com/user-attachments/assets/b740f339-4ae7-4098-b8d2-f29a67eff3ae" />
+
+
 ## 🗺️ Roadmap
 Things I plan to explore next:
 
