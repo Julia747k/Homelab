@@ -76,7 +76,7 @@ After running it:
 
 It generates a login link
 1. Go to the link and create/log into your account. 
-2. [Download](https://tailscale.com/download/linux) Tailscale on you machine based on the OS, and connect it to the same tailnet.
+2. [Download Tailscale](https://tailscale.com/download/linux) on you machine based on the OS, and connect it to the same tailnet.
 
 Now i can access my Proxmox server from anywhere ☺️
 
