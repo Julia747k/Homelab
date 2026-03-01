@@ -73,6 +73,7 @@ tailscale up
 ```
 
 After running it: 
+
 It generates a login link, go to the link and create/log into your account. 
 Dowbload Tailscale on you machine based on the OS, and connect it to the same tailnet.
 
