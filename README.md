@@ -24,12 +24,12 @@ My homelab currently runs on an **old laptop repurposed as a server** running Pr
 
 Since I'm using a laptop as a server, I needed it to **stay on with the lid closed**.
 
-### Step 1: Edit logind configuration
+#### Step 1: Edit logind configuration
 
 ```bash
 sudo vim /etc/systemd/logind.conf
 ```
-### Step 2: Modify lid behavior
+#### Step 2: Modify lid behavior
 
 Find these lines:
 
@@ -47,7 +47,7 @@ HandleLidSwitchExternalPower=ignore
 HandleLidSwitchDocked=ignore
 ```
 
-### Step 3: Restart the service
+#### Step 3: Restart the service
 
 ```bash
 sudo systemctl restart systemd-logind
