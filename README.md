@@ -55,6 +55,28 @@ sudo systemctl restart systemd-logind
 
 Now the laptop stays running with the lid closed 🥳
 
+## 🌐 Remote Access with [Tailscale](https://tailscale.com/download/linux)
+I set up Tailscale so I can access my homelab from my MacBook anywhere.
+
+
+Honestly the setup was super easy.
+#### Step 1: Install Tailscale
+
+```bash
+curl -fsSL https://tailscale.com/install.sh | sh
+```
+
+#### Step 2: Bring Talescale up
+
+```bash
+tailscale up
+```
+
+After running it: 
+It generates a login link, go to the link and create/log into your account. 
+Dowbload Tailscale on you machine based on the OS, and connect it to the same tailnet.
+
+Now i can access my Proxmox server from anywhere ☺️
 
 ## 📸 Homelab (So Far)
 
